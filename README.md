@@ -55,3 +55,63 @@
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Environment Setup
+```bash
+cp sample.env .env
+# Fill in your API keys and configurations in the .env file
+```
+
+### 3. Run the Frontend
+```bash
+cd frontend
+streamlit run frontend.py
+```
+
+### 4. Start the Backend
+```bash
+cd backend
+python app.py
+```
+
+---
+
+## 🧑‍💻 How to Use
+
+1. **Describe Your Trip**  
+   - Use natural language like:  
+     _"I want to travel to Bangkok from New York from July 1st to July 10th."_
+
+2. **Explore the Results**  
+   - View flight options and pricing  
+   - Browse hotel recommendations  
+   - Discover top local restaurants
+
+3. **Get Local Insights**  
+   - Chat with the Research Assistant  
+   - Learn about customs, tips, attractions, and more
+
+---
+
+## 🧩 Future Enhancements
+- Multi-language support  
+- Advanced itinerary optimization  
+- Multi-user trip collaboration  
+- Offline PDF itinerary export  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please open an issue or pull request.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌐 Connect
+- [GitHub](https://github.com/RomitDeokar/Travel_Planner)
+- [Portfolio](https://resumechatbot1-y8jjvwn7gof79bc6euvwch.streamlit.app/)
